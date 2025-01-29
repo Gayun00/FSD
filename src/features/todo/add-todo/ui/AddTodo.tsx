@@ -1,6 +1,6 @@
 import { FC, useState } from "react";
 import { useAtom } from "jotai";
-import { todosAtom } from "../entities/todo/model/store";
+import { todosAtom } from "../../../../entities/todo/model/store";
 
 export const AddTodo: FC = () => {
   const [text, setText] = useState("");

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./App.css";
 import { AddTodo } from "./components/AddTodo";
-import { TodoList } from "./components/TodoList";
+import { TodoList } from "./widgets/todo-list/ui/TodoList";
 
 export const App: FC = () => {
   return (

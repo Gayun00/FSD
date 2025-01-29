@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { useAtom } from "jotai";
-import { todosAtom } from "../store/atoms";
+import { todosAtom } from "../entities/todo/model/store";
 import { TodoItem } from "./TodoItem";
 
 export const TodoList: FC = () => {
